@@ -1,18 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body,
 html {
     height: 100%;
     margin: 0;
 }
 
-.chatCentral {
-    color: aqua;
-    text-align: center;
-}
-
-
 body {
-    background-image: linear-gradient(120deg, blue 0%, red 100%);
+    background-image: linear-gradient(120deg, rgb(101, 54, 137) 0%, rgb(225, 217, 217) 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+}
+
+.chat h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 220px;
+}
+
+.lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 150px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.getstarted {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    cursor: pointer;
+    background-color: yellow;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.getstarted h4 {
+    display: flex;
+    align-items: center;
+}
+
+
+.ajuda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+}
+
+.createAccount {
+    display: flex;
+    align-items: center;
+}
+
+.createAccount a {
+    text-decoration: none;
+    color: black;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+}
+
+.help a {
+    text-decoration: none;
+    color: black;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+}
+
+.username h6 {
+    color: dimgray;
+}
+
+.username input {
+    height: 30px;
+    border: 0;
+    outline: none;
+    margin-bottom: 2px;
+    border-bottom: 0.1rem rgb(6, 6, 6) solid;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+}
+
+.senha h6 {
+    color: dimgray;
+}
+
+.senha input {
+    height: 30px;
+    border: 0;
+    outline: none;
+    margin-bottom: 2px;
+    border-bottom: 0.1rem rgb(6, 6, 6) solid;
+}
+
+
