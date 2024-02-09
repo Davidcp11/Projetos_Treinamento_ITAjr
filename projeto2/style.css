@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    width: 1440px;
+    height: 1024px;
+    margin: 0;
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    width: 1440px;
+    padding: 20px;
+    margin: 50px 0px 30px 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 606px;
+    width: 511px;
+}
+
+.headLine {
+    display: flex;
+    flex-direction: column;
+    height: 304px;
+    width: 511px;
+    gap: 8px;
+}
+
+.headLine>.text1,
+.text2 {
+    height: 148px;
+}
+
+.headLine p {
+    font-family: 'Zilla Slab', serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.headLine span {
+    color: #E3B635;
+}
+
+.content>hr.solid {
+    border-top: 4px solid black;
+    width: 452px;
+}
+
+.content>.paragrafo p {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.content>.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+    height: 66px;
+    padding: 24px, 40px, 24px, 40px;
+    border-radius: 40px;
+    background-color: #E3B635;
+    gap: 10px;
+
+
+}
+
+.cardList {
+    display: flex;
+    position: absolute;
+    top: 785px;
+    height: 179px;
+    width: 607px;
+    gap: 20px;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardList>.card1,
+.card2,
+.card3 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 48px 24px 48px;
+    gap: 10px;
+    border-radius: 18px;
+    background-color: #242424;
+}
+
+.cardList img {
+    width: 12px;
+    height: 18px;
+    top: 3px;
+    left: 6px;
+}
+
+.number p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+
+.text p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.man {
+    position: absolute;
+    top: 0px;
+    left: 672px;
+}
+
+.asterisco {
+    position: absolute;
+    width: 413px;
+    height: 406px;
+    top: 154.46px;
+    left: 534px;
+    border: 2px;
+    z-index: -1;
+}
+
+.estrela {
+    position: absolute;
+    width: 249.33px;
+    height: 260.33px;
+    top: 668px;
+    left: 1164.39px;
+    border: 2.12px;
+    z-index: -1;
+}
+
+.bloco {
+    position: absolute;
+    width: 376px;
+    height: 501px;
+    left: 1000px;
+    top: 0px;
+    z-index: -1;
+    border-radius: 0px 0px 188px 188px;
+    background-color: #E3B635;
+
+}
