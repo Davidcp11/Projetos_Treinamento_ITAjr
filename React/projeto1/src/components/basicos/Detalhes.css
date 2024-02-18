@@ -1,0 +1,10 @@
+.All{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+
+.All p{
+    cursor: pointer;
+}
