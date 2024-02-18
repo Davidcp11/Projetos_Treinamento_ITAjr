@@ -1,0 +1,51 @@
+.Dados {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Dados .Inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 40px;
+    height: 60%;
+    color: dimgray;
+}
+
+.Dados .User{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Dados .User input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-bottom: 2px;
+    border-bottom: 0.1rem rgb(6, 6, 6) solid;
+}
+
+.Dados .Senha input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-bottom: 2px;
+    border-bottom: 0.1rem rgb(6, 6, 6) solid;
+}
+
+.Dados .Get {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    flex-grow: 1;
+    cursor: pointer;
+}
