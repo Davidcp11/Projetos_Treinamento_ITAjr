@@ -1,0 +1,48 @@
+.App {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 1024px;
+    width: 1440px;
+    padding: 0px 10px;
+}
+
+.CardList{
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+.Content{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.Man{
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+}
+
+.Star{
+    position: absolute;
+    left: 80%;
+    bottom: 10%;
+}
+
+.Asterisk{
+    position: absolute;
+    left: 42%;
+    top: 12%;
+}
+
+.Bloco{
+    position: absolute;
+    right: 2%;
+    border-radius: 0px 0px 200px 200px;
+    width: 376px;
+    height: 501px;
+    background-color: #E3B635;
+}

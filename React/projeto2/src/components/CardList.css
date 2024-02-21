@@ -1,0 +1,6 @@
+.CardList {
+    display: flex;
+    gap: 20px;
+    height: 179px;
+    width: 607px;
+}
