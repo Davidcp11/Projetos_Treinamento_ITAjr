@@ -1,0 +1,24 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin: 5px;
+    width: 189px;
+    height: 179px;
+    padding: 10px 40px;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+}
+
+.Card .Numb {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Card .Text {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
