@@ -1,0 +1,67 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+    padding: 0px 10px;
+}
+
+.Actions {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 40%;
+    gap: 5px;
+    align-items: center;
+    color: black;
+}
+
+.Actions img {
+    width: 22px;
+}
+
+.Actions .Location {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    padding: 0px 10px;
+    border-radius: 6px;
+    gap: 6px;
+    background-color: #EBE5F9;
+    color: #4B2995;
+
+    p {
+        display: flex;
+        width: 90%;
+    }
+}
+
+
+.Actions .Cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #F1E9C9;
+}
+
+.Actions .Plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #F1E9C9;
+}

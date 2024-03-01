@@ -1,0 +1,11 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 2300px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+}
+
+
