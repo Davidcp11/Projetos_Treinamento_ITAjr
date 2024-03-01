@@ -1,0 +1,21 @@
+.CartCard {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.CartCard .Conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.CartCard .Conteudo .Botoes{
+    display: flex;
+    gap: 10px;
+
+    button {
+        border: none;
+        background-color: transparent;
+
+    }
+}
