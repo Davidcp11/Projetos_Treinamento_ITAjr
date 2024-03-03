@@ -1,7 +1,14 @@
 .CartCard {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
     color: black;
+    
+    img {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .CartCard .Conteudo {

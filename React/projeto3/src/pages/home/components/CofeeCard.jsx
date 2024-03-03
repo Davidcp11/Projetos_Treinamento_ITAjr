@@ -29,7 +29,7 @@ export default function CofeeCard(props) {
             setCarrinho(
                 carrinho.map((produto) => {
                     if (produto.nome === props.nome) {
-                        return { ...produto, quantidade: count }
+                        return { ...produto, quantidade: count}
                     } else {
                         return produto
                     }
