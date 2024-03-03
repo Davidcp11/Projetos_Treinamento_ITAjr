@@ -6,7 +6,8 @@ import { FaMoneyBill } from "react-icons/fa";
 import { CiBank } from "react-icons/ci";
 
 import Endereco from "./components/Endereco";
-import Carrinho from "./components/Carrinho"
+import CartCard from "./components/basicos/CartCard"
+import Carrinho from "./components/Carrinho";
 import React, { useState } from "react";
 
 export default function Cart(props) {
@@ -18,10 +19,10 @@ export default function Cart(props) {
 
 
     return (
-        <div className="Conteudo">
+        <div className="Cart__conteudo">
             <div className="Dados">
                 <h2>Complete seu pedido</h2>
-                <div style={{ backgroundColor: "#F3F2F2", borderRadius: "10px", padding: "20px", display: "flex", flexDirection:"column", gap:"20px" }}>
+                <div style={{ backgroundColor: "#F3F2F2", borderRadius: "10px", padding: "20px", display: "flex", flexDirection: "column", gap: "20px" }}>
                     <div className="Title">
                         <FaLocationDot style={{ color: "#C47F17", height: "30px", width: "30px" }} />
                         <div className="Text">
@@ -29,7 +30,7 @@ export default function Cart(props) {
                             Informe o endereço onde deseja receber seu pedido
                         </div>
                     </div>
-                    <Endereco className="Endereco"/>
+                    <Endereco className="Endereco" />
                 </div>
                 <div className="Pagamento" style={{ backgroundColor: "#F3F2F2", borderRadius: "10px", padding: "20px" }}>
                     <div className="Title">
@@ -55,9 +56,10 @@ export default function Cart(props) {
                     </div>
                 </div>
             </div>
-        <div className="Carrinho">
-            <Carrinho/>
-        </div>
+            <div className="Cart__carrinho">
+                <h2>Cafés selecionados</h2>
+                <Carrinho/>
+            </div>
         </div>
     )
 }
