@@ -43,7 +43,11 @@ export default function Carrinho(props) {
                     <div>Total</div>
                     <div>R$ {valorTotal(carrinho) + valorEntrega}</div>
                 </div>
-                <button>CONFIRMAR PEDIDO</button>
+                <button style={{
+                    fontFamily: '\'Baloo 2\', sans-serif',
+                    fontWeight: '700',
+                    fontSize: '18px'
+                }}>CONFIRMAR PEDIDO</button>
             </div>
         </div>
     )

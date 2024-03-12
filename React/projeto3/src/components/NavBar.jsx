@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
 import './NavBar.css'
-
+import { MeuContexto } from '../Context'
+import { useContext } from 'react'
 
 export default function NavBar(props) {
+
+    const { carrinho, setCarrinho } = useContext(MeuContexto)
+
     return (
         <div className="Navbar">
             <div className="IconPage">
@@ -20,6 +24,9 @@ export default function NavBar(props) {
                 <button className="Cart">
                     <Link to="/cart">
                         <img src="./src/assets/Cart.svg" alt="" />
+                        {carrinho.length > 0 && (
+                            <span className='QuantidadeCarrinho'>{carrinho.length}</span>
+                        )}
                     </Link>
                 </button>
 
