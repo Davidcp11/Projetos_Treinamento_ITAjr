@@ -27,7 +27,6 @@ export default function Home(props) {
             .catch(error => console.error('Erro ao obter dados da API:', error));
     }, []);
 
-
     return (
         <>
             <Intro />

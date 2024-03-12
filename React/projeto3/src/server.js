@@ -7,7 +7,7 @@ app.use(express.json())
 
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+    origin: "http://localhost:5173",
 };
 
 
@@ -17,16 +17,16 @@ app.use(cors(corsOptions));
 app.get('/api/catalogo', (req, res) => {
     const dados = [
         {
+            tags: ['TRADICIONAL'],
             nome: "Expresso Tradicional",
-            tags: ["TRADICIONAL"],
-            descricao: "Cafe comum",
-            preco: 10
+            descricao: "O tradicional café feito com água quente e grãos moídos",
+            preco: 10.00
         },
         {
+            tags: ['TRADICIONAL', 'GELADO'],
             nome: "Expresso Gelado",
-            tags: ["TRADICIONAL", "GELADO"],
-            descricao: "Cafe comum gelado",
-            preco: 15
+            descricao: "O tradicional café feito com água quente e grãos moídos",
+            preco: 10.00
         }
     ];
     res.json(dados);
